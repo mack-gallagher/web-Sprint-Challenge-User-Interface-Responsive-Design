@@ -236,7 +236,7 @@ footer {
 }
 
 footer p {
-     color: white;
+    font-size: 1rem;
 }
 
 /* mobile media query */
