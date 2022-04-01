@@ -203,6 +203,10 @@ footer {
     font-size: 3rem;
 }
 
+footer p {
+     color: black;
+}
+
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
@@ -217,6 +221,11 @@ footer {
         font-size: 2rem;
     }
 
+    .header-header nav a {
+        font-size: 1rem;
+    }
+
+
     /* menu */
     .menu {
         background-image: none;
@@ -228,4 +237,5 @@ footer {
         padding-top: 2.5vh;
         font-size: 2rem;
     }
+    
 }
