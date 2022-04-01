@@ -172,7 +172,7 @@ header {
 }
 
 .menu h2 {
-    padding-top: 2%;
+    padding-top: 5%;
     font-size: 4rem;
     text-align: center;
 }
@@ -190,18 +190,20 @@ header {
     width: 70%;
     justify-content: space-around;
     align-items: center;
-    row-gap: 10%;
-    column-gap: 5%;
+    padding: 1% 0 10% 0;
 }
 
 .menu-section {
     width: 40vh;
+    height: auto;
     display: flex;
     flex-direction: column;
+    margin: 4%;
 }
 
 .menu h3 {
     font-size: 3rem;
+    margin-bottom: 2%;
 }
 
 .menu h4 {
@@ -210,6 +212,10 @@ header {
 
 .menu p {
     font-size: 1.5rem;
+}
+
+.menu-item {
+    margin: 2% 0 3% 0;
 }
 
 .item-header {
