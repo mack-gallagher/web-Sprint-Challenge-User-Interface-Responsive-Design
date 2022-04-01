@@ -52,8 +52,7 @@ table {
 }
 
 html {
-    max-width: 1920px;
-    min-width: 428px;
+    width: 100%;
     font-size: 62.5%;
 }
 
@@ -136,7 +135,6 @@ header {
 .fa {
         font-size: 3rem;
         text-decoration: none;
-        margin: 5px 80px;
         color: white;
 }
 
@@ -228,19 +226,7 @@ footer p {
 /* mobile media query */
 @media (max-width: 428px) {
 
-    html { 
-       max-width: 95vw;
-    }
-
-    body {
-       max-width: 100%;
-    }
-
     /* header section */
-
-    header {
-        max-width: 100%;
-    }
 
     .header-title {
         margin: 0 auto;
@@ -249,7 +235,7 @@ footer p {
     }
 
     .header-header h1 {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .header-header nav a {
@@ -276,7 +262,6 @@ footer p {
     }
     
     footer p {
-        color: red;
     }
     
 }
