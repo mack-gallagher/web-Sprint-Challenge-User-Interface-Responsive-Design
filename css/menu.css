@@ -126,20 +126,24 @@ header {
 .header-header nav div {
     display: flex;
     justify-content: space-around;
+    padding: 2% 5% 2% 5%;
 }
 
 .social-media-icons {
-    max-width: 100%;
+    width: 40%;
+    height: 10%;
     display: flex;
-    justify-content: stretch;   
+    justify-content: stretch;
+    padding: 3%;
+    margin: 0 auto;   
 }
 
 .fa {
-    font-size: 3rem;
-    text-decoration: none;
-    color: white;
+        font-size: 3rem;
+        text-decoration: none;
+        color: white;
 }
-
+  
 
 /* spacer */
 .spacer {
