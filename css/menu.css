@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+        
 }
 /* HTML5 display-role reset fo    background-color: none;r older browsers */
 article, aside, details, figcaption, figure, 
@@ -95,10 +96,14 @@ a {
     color: white;
 }
 
-body {
-    background-color: rgb(10,10,10);
+html {
+    max-width: 100%;
 }
 
+body {
+    max-width: 100%;
+    background-color: rgb(10,10,10);
+}
 
 /* header section */
 header {
