@@ -112,6 +112,8 @@ header {
 
 .header-header {
     background-color: rgba(10,10,10,90%);
+    display: flex;
+    flex-direction: column;
 }
 
 .header-header h1 {
@@ -133,9 +135,9 @@ header {
 }
 
 .fa {
-        font-size: 3rem;
-        text-decoration: none;
-        color: white;
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -211,6 +213,10 @@ header {
     justify-content: space-between;
 }
 
+.dietary-info {
+    font-style: italic;
+}
+
 /* footer section */
 footer {
     width: 100%;
@@ -227,6 +233,11 @@ footer p {
 @media (max-width: 428px) {
 
     /* header section */
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
     .header-title {
         margin: 0 auto;
@@ -235,13 +246,26 @@ footer p {
     }
 
     .header-header h1 {
+        padding-top: 10%;
+        line-height: 5rem;
+        font-size: 3rem;
+        white-space: pre-wrap;
+    }
+
+    .header-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-links a {
         font-size: 2rem;
     }
 
-    .header-header nav a {
-        font-size: 1rem;
+    .social-media-icons {
+        width: 40vw;
+        justify-content: center;
+        padding: 5%; 
     }
-
 
     /* menu */
     .menu {
@@ -257,6 +281,23 @@ footer p {
     p {
         color: black;
         text-align: center;
+    }
+
+    .section-header-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5% 5% 0.5% 5%;
+        border: 2px solid black;
+        margin-top: 5%;
+    }
+
+    .section-header-outer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10%; 
+        border-bottom: 5px solid black;
     }
 
     .menu h4 {
@@ -275,6 +316,17 @@ footer p {
         align-items: center;
     }
 
+    .section-header {
+        padding: 10%;
+        text-align: center;
+        border-bottom: 5px solid black;
+    }
+
+    .menu-item {
+        margin: 10% 0 0 0;
+        border-bottom: 2px solid black;
+    }
+
     .item-header {
         flex-direction: column;
         align-items: center;
@@ -285,6 +337,7 @@ footer p {
         max-width: 100%;
         padding: 0;
         font-size: 2rem;
+        text-align: center;
     }
     
 }
