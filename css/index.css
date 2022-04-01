@@ -94,6 +94,10 @@ a {
     color: white;
 }
 
+body {
+    background-color: rgb(10,10,10);
+}
+
 /* header section */
 header {
     width: 100%;
@@ -120,7 +124,20 @@ header {
     justify-content: space-around;
 }
 
+.social-media-icons {
+    max-width: 100%;
+    display: flex;
+    justify-content: stretch;   
+}
 
+.fa {
+        font-size: 3rem;
+        text-decoration: none;
+        margin: 5px 80px;
+        color: white;
+}
+  
+ 
 /* spacers */
 .spacer {
     width: 100%;
