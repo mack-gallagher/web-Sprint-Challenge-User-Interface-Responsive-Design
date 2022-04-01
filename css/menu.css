@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+/* HTML5 display-role reset fo    background-color: none;r older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -220,7 +220,7 @@ footer {
 }
 
 footer p {
-     color: black;
+     color: white;
 }
 
 /* mobile media query */
@@ -246,12 +246,38 @@ footer p {
     /* menu */
     .menu {
         background-image: none;
+        background-color: white;
+        color: black;
         max-width: 100%;
     }
 
+    .menu h2,
+    h3,
+    h4,
+    p {
+        color: black;
+        text-align: center;
+    }
+
+    .menu h4 {
+        font-size: 3rem;
+    }
+  
+    .menu p {
+        font-size: 2.5rem;
+    }
+
+    .menu-background {
+        background-color: rgba(10,10,10,0%);
+    }
 
     .menu-section {
-        width: 100%;
+        align-items: center;
+    }
+
+    .item-header {
+        flex-direction: column;
+        align-items: center;
     }
 
     /* footer section */
@@ -259,9 +285,6 @@ footer p {
         max-width: 100%;
         padding: 0;
         font-size: 2rem;
-    }
-    
-    footer p {
     }
     
 }
