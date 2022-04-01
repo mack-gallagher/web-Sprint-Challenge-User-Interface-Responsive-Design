@@ -85,6 +85,17 @@ h4 {
 p, a {
     font-size: 3rem;
 }
+/* END RESET */
+
+h1,
+h2,
+h3,
+h4,
+p,
+a {
+    color: white;
+}
+
 
 /* header section */
 header {
@@ -94,6 +105,22 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.header-header {
+    background-color: rgba(10,10,10,90%);
+}
+
+.header-header h1 {
+    font-size: 5rem;
+    text-align: center;
+    height: 10rem;
+    line-height: 10rem;
+}
+
+.header-header nav div {
+    display: flex;
+    justify-content: space-around;
 }
 
 /* spacer */
