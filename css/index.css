@@ -225,6 +225,15 @@ header {
     flex-direction: column;
 }
 
+.contact-container h3 {
+    margin-bottom: 3%;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+}
+
 .contact h2 {
     padding-top: 5vh;
     font-size: 3rem;
@@ -237,7 +246,6 @@ header {
 
 .contact p,
 .contact a {
-    padding: .5vh 0;
     font-size: 1.5rem;
 }
 
@@ -257,6 +265,9 @@ header {
 }
 
 .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 25%;
 }
 
@@ -264,11 +275,52 @@ header {
 /* footer section */
 footer {
     width: 100%;
-    height: 15vh;
+    height: 20vh;
     padding-top: 2.5vh;
-    font-size: 3rem;
-    text-align: center;
+    color: white;
 }
+
+footer a {
+    font-size: 2rem;
+}
+
+.footer-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.email-call-to-action {
+    display: flex;
+    height: 60%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.email-call-to-action p {
+    font-size: 2rem;
+}
+
+.footer-right-content {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+section .copyright {
+    font-size: 1rem;
+}
+
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
