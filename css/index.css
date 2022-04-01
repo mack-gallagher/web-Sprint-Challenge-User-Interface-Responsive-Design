@@ -242,59 +242,87 @@ footer {
     font-size: 3rem;
     text-align: center;
 }
-
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
-    
+ 
+    * {
+       margin: 0 auto;
+    }
+ 
+    html {
+        max-width: 50vw;
+        text-align: center;
+        padding: 0 auto;
+        margin: 0 auto;
+    }
 
+    body {
+        padding: 0 auto;
+        margin: 0 auto;
+    }
+ 
+    header {
+    }
+ 
+    .header-header h1 {
+        font-size: 2rem;
+    }
+    .header-header nav {
+    }
+    .header-header nav a {
+        font-size: 1rem;
+    }
     /* gallery section */
     .gallery {
-        height: auto;
+    }
+
+    .food-boxes {
+        flex-direction: column;
+        align-items: center;
     }
     
     /* about us section */
 
     .about {
-        height: 200vh;
     }
     
     .about h2 {
-        width: 100%;
-        padding-top: 5vh;
     }
     
     .about-container .text {
-        width: 85%;
     }
     
     /* contact us section */
     .contact h3 {
-        padding-top: 2.5vh;
     }
     
     .info {
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
     
     .address {
-        width: 100%;
-        padding-bottom: 2.5vh;
     }
     
     .hours {
-        width: 100%;
     }
     
     .contacts {
-        width: 100%;
-        padding-bottom: 2.5vh;
     }
 
     /* footer section */
     footer {
-        height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+        max-width: 100vw;
+    }
+  
+    .contact-container { 
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+    .contact-container a {
+        white-space: pre-wrap;
+        word-wrap: break-word;   
     }
 }
