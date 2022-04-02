@@ -298,11 +298,6 @@ section .copyright {
         font-size: 1rem;
     }
 
-    .social-media-icons {
-         display: none;
-    }
-
-
    /* menu */
     .menu {
         background-image: none;

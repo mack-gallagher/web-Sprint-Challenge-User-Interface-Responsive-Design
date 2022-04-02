@@ -232,6 +232,7 @@ header {
 .contact-links {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
 }
 
 .contact h2 {
@@ -344,40 +345,23 @@ section .copyright {
     
     /* about us section */
 
-    .about {
-    }
-
     .about-container {
         height: 100%;
     }
     
-    .about h2 {
-    }
-    
-    .about-container .text {
-    }
-    
     /* contact us section */
-    .contact h3 {
-    }
-    
+
     .info {
-        /* flex-wrap: wrap; */
-    }
-    
-    .address {
-    }
-    
-    .hours {
-    }
-    
-    .contacts {
+       justify-content: space-between;
+       align-items: center;
+       flex-direction: column;
     }
 
-    #email,
-    #phone {
-        display: none;
-    }
+    .address,
+    .hours,
+    .contacts {
+       width: 100%;
+    }    
 
     /* footer section */
     footer {
