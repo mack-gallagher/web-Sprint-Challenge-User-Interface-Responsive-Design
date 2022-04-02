@@ -373,6 +373,18 @@ section .copyright {
 
     /* contact us section */
 
+    .info .address p,
+    .info .hours p,
+    .info .contacts a {
+       font-size: 2.5rem;
+    }   
+
+    .info .address h3,
+    .info .hours h3,
+    .info .contacts h3 {
+       font-size: 3rem;
+    }
+
     .info {
        justify-content: space-between;
        align-items: center;
