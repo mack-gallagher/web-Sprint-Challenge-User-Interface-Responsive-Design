@@ -85,7 +85,10 @@ h4 {
 p, a {
     font-size: 3rem;
 }
+
+/* **************************** */
 /* END RESET */
+/* **************************** */
 
 h1,
 h2,
@@ -105,7 +108,12 @@ body {
     background-color: rgb(10,10,10);
 }
 
-/* header section */
+
+
+/* **************************************************************************************** */
+/* ********** HEADER SECTION [SHOULD BE EXACTLY THE SAME BETWEEN INDEX AND MENU] *********** */
+/* **************************************************************************************** */
+
 header {
     height: 100vh;
     background-image: url('../img/home-header.jpg');
@@ -121,8 +129,8 @@ header {
 .header-header h1 {
     font-size: 5rem;
     text-align: center;
-    height: 10rem;
     line-height: 10rem;
+    height: auto;
 }
 
 .header-header nav div {
@@ -145,7 +153,11 @@ header {
         text-decoration: none;
         color: white;
 }
-  
+
+/* **************************************************************************************** */
+/* ********** END HEADER SECTION *********** */
+/* **************************************************************************************** */
+
 
 /* spacer */
 .spacer {
@@ -229,7 +241,15 @@ header {
     font-style: italic;
 }
 
-/* footer section */
+
+
+
+
+
+/* **************************************************************************************** */
+/* ********** FOOTER SECTION [SHOULD BE EXACTLY THE SAME BETWEEN INDEX AND MENU] *********** */
+/* **************************************************************************************** */
+
 
 footer {
     width: 100%;
@@ -283,20 +303,80 @@ section .copyright {
     font-size: 1rem;
 }
 
+/* **************************************************************************************** */
+/* ******************** END FOOTER SECTION ************************** */
+/* **************************************************************************************** */
+
+
+
+
+
+
+
+
+/* tablet media query*/
+
+
+@media (max-width: 1100px) {
+
+
+    /* **************************************************************************************** */
+    /* ********** HEADER SECTION [SHOULD BE EXACTLY THE SAME BETWEEN INDEX AND MENU] *********** */
+    /* **************************************************************************************** */  
+
+
+    .header-links {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    /* **************************************************************************************** */
+    /* ********** END HEADER SECTION  *********** */
+    /* **************************************************************************************** */  
+
+}
+
+
+/* end tablet media query*/
+
+
+
+
+
+
+
+
+
 
 /* mobile media query */
 @media (max-width: 428px) {
 
-    /* header section */
-    
-    .header-header h1 {
+
+
+
+    /* **************************************************************************************** */
+    /* ********** HEADER SECTION [SHOULD BE EXACTLY THE SAME BETWEEN INDEX AND MENU] *********** */
+    /* **************************************************************************************** */  
+
+    .header-links  {
         font-size: 2rem;
+    } 
+    
+
+    .header-header h1 {
+        line-height: 5rem;
+        margin: 10%;
+        font-size: 4rem;
     }
-    .header-header nav {
-    }
-    .header-header nav a {
-        font-size: 1rem;
-    }
+
+    /* **************************************************************************************** */
+    /* ********** END HEADER SECTION *********** */
+    /* **************************************************************************************** */
+
+
+
 
    /* menu */
     .menu {
@@ -363,18 +443,49 @@ section .copyright {
         align-items: center;
     }
 
-    /* footer section */
-    
+
+
+
+
+    /* **************************************************************************************** */
+    /* ********* FOOTER SECTION [SHOULD BE EXACTLY THE SAME BETWEEN INDEX AND MENU *************** */
+    /* **************************************************************************************** */
+ 
+ 
     footer {
+        height: 100%;
         padding-top: 2.5vh;
         font-size: 0.5rem;
         max-width: 100vw;
     }
 
-    footer * {
-        font-size: 0.5rem;
-        flex-wrap: wrap;
+
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        align-items: center;
+    }
+  
+    .footer-right-content {
+        height: 100%;
     }
 
+    .footer-right-content nav {
+        height: 100%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    footer * {
+        font-size: 0.5rem;
+    }
+
+    /* **************************************************************************************** */
+    /* *********************** END FOOTER SECTION *********************** */
+    /* **************************************************************************************** */
+ 
 
 }
