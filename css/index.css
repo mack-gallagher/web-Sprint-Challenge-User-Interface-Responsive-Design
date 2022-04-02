@@ -318,6 +318,10 @@ footer a {
     font-size: 2rem;
 }
 
+footer button {
+    color: black;
+}
+
 .footer-right-content {
     height: 80%;
     width: 60%;
