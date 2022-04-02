@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,43 +45,33 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 * {
     box-sizing: border-box;
 }
-
 html {
     width: 100%;
     font-size: 62.5%;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
 }
-
 h1, h2, h3, h4, h5, h6, p, a, i {
     text-decoration: none;
 }
-
 h1 {
     font-size: 7.5rem;
 }
-
 h2 {
     font-size: 6rem;
 }
-
 h3 {
     font-size: 5rem;
 }
-
 p, a {
     font-size: 3rem;
 }
 /* END RESET */
-
-
 h1,
 h2,
 h3,
@@ -92,6 +81,7 @@ a {
     color: rgb(225,239,230);
 }
 
+
 body {
     background-color: rgb(0,4,17);
 }
@@ -99,7 +89,6 @@ body {
   /* **************************************************************************************** */
 /* ********** HEADER SECTION [SHOULD BE EXACTLY THE SAME BETWEEN INDEX AND MENU] *********** */
 /* **************************************************************************************** */
-
 header {
     height: 100vh;
     background-image: url('../img/home-header.jpg');
@@ -107,24 +96,20 @@ header {
     background-position: center;
     background-repeat: no-repeat;
 }
-
 .header-header {
     background-color: rgb(0, 4, 17, .8);
 }
-
 .header-header h1 {
     font-size: 5rem;
     text-align: center;
     line-height: 10rem;
     height: auto;
 }
-
 .header-header nav div {
     display: flex;
     justify-content: space-around;
     padding: 2% 5% 2% 5%;
 }
-
 .social-media-icons {
     max-width: 40%;
     height: 10%;
@@ -133,7 +118,6 @@ header {
     padding: 3%;
     margin: 0 auto;   
 }
-
 .fa {
         font-size: 3rem;
         text-decoration: none;
@@ -143,8 +127,6 @@ header {
 /* **************************************************************************************** */
 /* ********** END HEADER SECTION *********** */
 /* **************************************************************************************** */
-
-
  
 /* spacers */
 .spacer {
@@ -159,6 +141,7 @@ header {
 }
 
 /* gallery section */
+
 .gallery {
     width: 100%;
     min-height: 100vh;
@@ -180,7 +163,7 @@ header {
 
 /* about us section */
 .about {
-    width: 100%;
+    max-width: 100%;
     min-height: 75vh;
     text-align: center;
     background-image: url("../img/staff-cooks.jpg");
@@ -200,21 +183,17 @@ header {
 }
 
 .about h2 {
-    width: 100%;
 }
-
 .about p {
     font-size: 2rem;
     padding: 4%;
 }
-
 .about-container .text {
     height: 100%;
     display: flex;
     flex-direction: column;
     width: 50%;
 }
-
 /* contact us section */
 .contact {
     text-align: center;
@@ -224,7 +203,6 @@ header {
     background-repeat: no-repeat;
     background-color: rgb(0, 4, 17);
 }
-
 .contact-container {
     width: 100%;
     height: 100%;
@@ -232,81 +210,64 @@ header {
     display: flex;
     flex-direction: column;
 }
-
 .contact-container h3 {
     margin-bottom: 3%;
 }
-
 .contact-links {
     display: flex;
     flex-direction: column;
     max-width: 100%;
 }
-
 .contact h2 {
     padding-top: 5vh;
     font-size: 3rem;
 }
-
 .contact h3 {
     padding-top: 2.5vh;
     font-size: 2rem;
 }
-
 .contact p,
 .contact a {
     font-size: 1.5rem;
 }
-
 .info {
     width: 100%;
     display: flex;
     justify-content: space-around;
 }
-
 .address {
     width: 25%;
 }
-
 .hours {
     width: 25%;
     padding-bottom: 2.5vh;
 }
-
 .contacts {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 25%;
 }
-
-
 /* **************************************************************************************** */
 /* ********** FOOTER SECTION [SHOULD BE EXACTLY THE SAME BETWEEN INDEX AND MENU] *********** */
 /* **************************************************************************************** */
-
-
 footer {
     width: 100%;
     height: 20vh;
     padding-top: 2.5vh;
     color: rgb(225,239,230);
 }
-
 footer * {
     color: rgb(225,239,230);
 }
-
 footer a {
     font-size: 2rem;
 }
-
 .footer-wrapper {
     height: 100%;
     display: flex;
     justify-content: space-around;
 }
-
 .email-call-to-action {
     display: flex;
     height: 60%;
@@ -314,15 +275,12 @@ footer a {
     align-items: center;
     justify-content: space-around;
 }
-
 .email-call-to-action p {
     font-size: 2rem;
 }
-
 footer button {
     color: black;
 }
-
 .footer-right-content {
     height: 80%;
     width: 60%;
@@ -331,151 +289,95 @@ footer button {
     align-items: center;
     justify-content: space-around;
 }
-
 footer nav {
     display: flex;
     width: 100%;
     justify-content: space-around;
 }
-
 section .copyright {
     font-size: 1rem;
 }
-
 /* **************************************************************************************** */
 /* ******************** END FOOTER SECTION ************************** */
 /* **************************************************************************************** */
-
-
-
 /* tablet media query*/
-
-
 @media (max-width: 1100px) {
-
-
     /* **************************************************************************************** */
     /* ********** HEADER SECTION [SHOULD BE EXACTLY THE SAME BETWEEN INDEX AND MENU] *********** */
     /* **************************************************************************************** */  
-
-
     .header-links {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
-
-
     /* **************************************************************************************** */
     /* ********** END HEADER SECTION  *********** */
     /* **************************************************************************************** */  
-
-
     /* contact us section */
-
-    .info .address p,
-    .info .hours p,
-    .info .contacts a {
-       font-size: 2.5rem;
-    }   
-
-    .info .address h3,
-    .info .hours h3,
-    .info .contacts h3 {
-       font-size: 3rem;
-    }
-
     .info {
        justify-content: space-between;
        align-items: center;
        flex-direction: column;
     }
-
     .address,
     .hours,
     .contacts {
        width: 100%;
     }
-
-
 }
-
-
 /* end tablet media query*/
-
-
-
-
 /* mobile media query */
 @media (max-width: 428px) {
     
-
     
-
     /* **************************************************************************************** */
     /* ********** HEADER SECTION [SHOULD BE EXACTLY THE SAME BETWEEN INDEX AND MENU] *********** */
     /* **************************************************************************************** */  
-
     .header-links  {
         font-size: 2rem;
     } 
     
-
     .header-header h1 {
         line-height: 5rem;
         margin: 10%;
         font-size: 4rem;
     }
-
     /* **************************************************************************************** */
     /* ********** END HEADER SECTION *********** */
     /* **************************************************************************************** */
  
-
     /* gallery section */
-
     .food-boxes {
         flex-direction: column;
         align-items: center;
     }
     
     /* about us section */
-
     .about-container {
         height: 100%;
     }
-
     .about .text {
         width: 100%;
     }
-
     .about .text * {
         margin-top: 10%;
     }
-
     .about .text p {
         font-size: 2.5rem;
     }
     
     /* contact us section */
-
     .info {
        justify-content: space-between;
        align-items: center;
        flex-direction: column;
     }
-
     .address,
     .hours,
     .contacts {
        width: 100%;
     }
-
     
-
-
-
-
     /* **************************************************************************************** */
     /* ********* FOOTER SECTION [SHOULD BE EXACTLY THE SAME BETWEEN INDEX AND MENU *************** */
     /* **************************************************************************************** */
@@ -487,8 +389,6 @@ section .copyright {
         font-size: 0.5rem;
         max-width: 100vw;
     }
-
-
     .footer-wrapper {
         display: flex;
         flex-direction: column;
@@ -500,31 +400,24 @@ section .copyright {
     .footer-right-content {
         height: 100%;
     }
-
     .footer-right-content nav {
         height: 100%;
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
     }
-
-
     .email-call-to-action-input {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-
     footer * {
         font-size: 1.5rem;
         text-align: center;
     }
-
     /* **************************************************************************************** */
     /* *********************** END FOOTER SECTION *********************** */
     /* **************************************************************************************** */
  
-
-
  
 }
