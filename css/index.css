@@ -481,6 +481,13 @@ section .copyright {
         align-items: center;
     }
 
+
+    .email-call-to-action-input {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
     footer * {
         font-size: 0.5rem;
     }
