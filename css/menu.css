@@ -96,7 +96,7 @@ h3,
 h4,
 p,
 a {
-    color: white;
+    color: rgb(225,239,230);
 }
 
 html {
@@ -151,7 +151,7 @@ header {
 .fa {
         font-size: 3rem;
         text-decoration: none;
-        color: white;
+        color: rgb(225,239,230);
 }
 
 /* **************************************************************************************** */
@@ -255,11 +255,11 @@ footer {
     width: 100%;
     height: 20vh;
     padding-top: 2.5vh;
-    color: white;
+    color: rgb(225,239,230);
 }
 
 footer * {
-    color: white;
+    color: rgb(224,239,230);
 }
 
 footer a {
@@ -381,7 +381,7 @@ section .copyright {
    /* menu */
     .menu {
         background-image: none;
-        background-color: white;
+        background-color: rgb(225,239,230);
         color: black;
         max-width: 100%;
     }
