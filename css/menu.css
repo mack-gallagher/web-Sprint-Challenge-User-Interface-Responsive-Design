@@ -229,6 +229,7 @@ header {
 }
 
 .menu-item {
+    border-top: 1px solid black;
     margin: 2% 0 3% 0;
 }
 
@@ -393,6 +394,11 @@ section .copyright {
         text-align: center;
     }
 
+    h2 {
+        padding: 5%;
+        border-bottom: 5px solid black;
+    }
+
     .section-header-inner {
         display: flex;
         justify-content: center;
@@ -407,7 +413,6 @@ section .copyright {
         justify-content: center;
         align-items: center;
         padding: 10%; 
-        border-bottom: 5px solid black;
     }
 
     .menu h4 {
@@ -429,12 +434,11 @@ section .copyright {
     .section-header {
         padding: 10%;
         text-align: center;
-        border-bottom: 5px solid black;
     }
 
     .menu-item {
-        margin: 10% 0 0 0;
-        border-bottom: 2px solid black;
+        padding: 5% 0 0 5%;
+        border-top: 2px solid black;
     }
 
     .item-header {
